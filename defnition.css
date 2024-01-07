@@ -1,0 +1,60 @@
+header{
+ background-color: yellow;
+ margin-top: 5px;
+ font-size: 1.6em;
+ margin-left: 10px;
+ border: 2px;
+ box-shadow: black;
+ padding: 5px;
+ margin-right: 2px;
+}
+
+body{
+ background-color: white;
+}
+footer{
+ margin-top: 25px;
+ margin-left: 15px;
+ color: rgb(248, 188, 115);
+}
+.photo-of-title{
+ width: 350px;
+ height: 150px;
+ margin-top: 20px;
+ margin-left: 10px;
+}
+p{
+ font-size: 1.5em;
+}
+@media only screen and (max-width: 600px){
+ header{
+  margin-top: 5px;
+  width: 90%;
+  background-color: rgb(248, 248, 140);
+  margin-right: 5px;
+  
+ }
+ footer{
+  width: 80%;
+ }
+ .photo-of-title{
+  width: 95%;
+  height: 40%;
+ }
+}
+@media only screen and (min-width: 601px) and (max-width:768px){
+ header{
+  margin-top: 5px;
+  width: 90%;
+  background-color: rgb(248, 248, 140);
+  margin-right: 5px;
+  
+ }
+ .photo-of-title{
+  width: 95%;
+  height: 40%;
+ }
+ footer{
+  width: 80%;
+ }
+}

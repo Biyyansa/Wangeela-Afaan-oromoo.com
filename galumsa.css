@@ -1,0 +1,92 @@
+body{
+ background-color: black;
+ background-image: url("galumsa.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.w{
+ color: yellow;
+ font-size: 80px;
+}
+@media (max-width: 600px){
+ body{
+  background-color: rgb(32, 32, 32);
+  background-image: url("galumsa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+ }
+ .w{
+  color: yellow;
+  margin-top: 60px;
+  margin-left: 30px;
+  font-size: 85px;
+ }
+ .a{
+  color: yellow;
+  margin-top: 60px;
+  
+  font-size: 85px;
+ }
+ .o{
+  color: yellow;
+  margin-top: 60px;
+  
+  font-size: 85px;
+ }
+.seeni{
+ background-color: rgb(116, 224, 116);
+ padding: 20px;
+ width: 160px;
+ border: none;
+ border-radius: 9px;
+ position: absolute;
+ left: 90px;
+ top: 380px;
+ color: rgb(10, 10, 10);
+ font-weight: bolder;
+ font-size: 18px;
+}
+}
+
+@media(min-width: 601) and (max-width:768px){
+
+ body{
+  background-color: rgb(36, 34, 34);
+  background-image: url("galumsa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+ }
+ .w{
+  color: yellow;
+  margin-top: 60px;
+  margin-left: 30px;
+  font-size: 85px;
+ }
+ .a{
+  color: yellow;
+  margin-top: 60px;
+  
+  font-size: 85px;
+ }
+ .o{
+  color: yellow;
+  margin-top: 60px;
+  
+  font-size: 85px;
+ }
+ .seeni{
+  background-color: rgb(116, 224, 116);
+  padding: 20px;
+  width: 160px;
+  border: none;
+  border-radius: 9px;
+  position: absolute;
+  left: 90px;
+  top: 380px;
+  color: rgb(10, 10, 10);
+  font-weight: bolder;
+  font-size: 18px;
+ }
+}

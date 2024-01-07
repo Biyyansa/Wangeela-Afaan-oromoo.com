@@ -1,0 +1,86 @@
+body{
+ background-color: white;
+}
+
+header{
+
+ background-color: yellow
+ ;
+ display: flex;
+ color:black;
+ padding-left: 15px;
+ align-items: center;
+ height: 50px;
+
+ font-size: 1em;
+}
+.photo-of-title{
+ width: 350px;
+ height: 150px;
+ margin-top: 20px;
+ margin-left: 20px;
+}
+@media (max-width: 600px){
+ .photo-of-title{
+  width: 80%;
+  height: 40%;
+ }
+ 
+ header{
+  
+  width: 100%;
+  height: 50px;
+ }
+ .title{
+  width:80% ;
+  font-size: 1.2em;
+}
+.itti-fufi{
+ width: 80%;
+}
+.footer{
+ width: 80%;
+}
+}
+@media(min-width: 601) and (max-width:768px){
+ .photo-of-title{
+  width: 80%;
+  height: 40%;
+ }
+ 
+ header{
+  width: 100%;
+  height: 50px;
+ }
+ .title{
+  width:80% ;
+  font-size: 1.2em;
+}
+.itti-fufi{
+ width: 50%;
+}
+footer{
+ width: 80%;
+}
+}
+.title{
+ font-size: 1.2em;
+ margin-left: 25px;
+ border-style: solid;
+ border: 5px;
+ border-color: rgb(231, 223, 223);
+ padding: 3px;
+ color:black;
+}
+footer{
+ margin-top: 25px;
+ margin-left: 15px;
+ color: rgb(230, 164, 83);
+ font-size: 1.5em;
+}
+.itti-fufi{
+ margin-left: 40px;
+ width: 100px;
+ border: none;
+ font-size: 1em;
+}
